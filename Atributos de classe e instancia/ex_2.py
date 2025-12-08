@@ -10,8 +10,7 @@ class Pessoa:
     
     @staticmethod
     def e_maior_idade(idade):
-        if idade >= 18:
-            return f"{p.nome} é maior de idade"
+        return idade >= 18
     
 p = Pessoa.criar_data_de_nascimento(1987, 3, 12, "Juliano")
 print(p.nome, p.idade)
